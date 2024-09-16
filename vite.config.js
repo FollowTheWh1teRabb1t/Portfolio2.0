@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'styled-components': require.resolve('styled-components')
+      'styled-components': 'styled-components'
     }
   }
 });
