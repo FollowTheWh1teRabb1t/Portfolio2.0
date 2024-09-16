@@ -82,6 +82,7 @@ export const Container = styled.div`
     @media (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
+        padding-top: 120px;
 
         > .boxDescription {
             width: 100%;
@@ -99,8 +100,11 @@ export const Container = styled.div`
         }
 
         > .boxImg {
-            width: 100%;
-            height: 50vh;
+            width: 52%;
+            height: 32vh;
+            border: 2px solid;
+            border-radius: 20px;
+            border-color: ${({ theme }) => theme.COLORS.WHITE};
             background-size: contain;
             background-repeat: no-repeat;
             margin-bottom: 20px;
