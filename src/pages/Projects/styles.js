@@ -176,7 +176,6 @@ export const Container = styled.div`
     .description svg {
         margin-top: 15px;
         color: ${({ theme }) => theme.COLORS.YELLOW};
-        animation: blink 1.5s infinite; /* Animação de piscar */
     }
 
     > .boxProject, .boxDifficult {
