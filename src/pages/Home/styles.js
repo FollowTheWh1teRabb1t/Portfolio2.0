@@ -8,7 +8,7 @@ export const Container = styled.div`
     justify-content: space-between;
     height: 100vh;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
-    padding-top: 70px; /* Adiciona espaço no topo para o Header */
+    padding-top: 70px; 
 
     > .boxDescription {
         width: 100vh;
@@ -82,7 +82,7 @@ export const Container = styled.div`
     @media (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
-        padding-top: 120px;
+        padding-top: 110px;
 
         > .boxDescription {
             width: 100%;
@@ -102,9 +102,6 @@ export const Container = styled.div`
         > .boxImg {
             width: 52%;
             height: 32vh;
-            border: 2px solid;
-            border-radius: 20px;
-            border-color: ${({ theme }) => theme.COLORS.WHITE};
             background-size: contain;
             background-repeat: no-repeat;
             margin-bottom: 20px;
