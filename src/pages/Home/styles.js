@@ -12,6 +12,7 @@ export const Container = styled.div`
 
     > .boxDescription {
         width: 100vh;
+        height: auto;
         padding: 50px;
         display: flex;
         flex-direction: column;
@@ -52,6 +53,8 @@ export const Container = styled.div`
     > .boxImg {
         width: 100vh;
         height: 100vh;
+        position: relative;
+        top: -35px;
         background-image: url(${Profile});
         background-size: cover;
         background-position: center;
